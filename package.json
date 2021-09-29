@@ -1,8 +1,9 @@
 {
+  "homepage": "http://github.com/brazier19971/react-gh-pages",
   "name": "the-chelmsford-it-company",
   "version": "1.0.0",
   "private": true,
-  "description": "The Chelmsford IT Company",
+  "description": "Alistair Brazier",
   "keywords": [
     "gatsby"
   ],
@@ -11,12 +12,30 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.0",
+    "@material-ui/icons": "^4.11.2",
+    "babel-plugin-styled-components": "^1.13.1",
     "gatsby": "^3.8.1",
     "gatsby-plugin-gatsby-cloud": "^2.9.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "gatsby-plugin-image": "^1.9.0",
+    "gatsby-plugin-react-helmet": "^4.14.0",
+    "gatsby-plugin-styled-components": "^4.9.0",
+    "gatsby-source-filesystem": "^3.9.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "^17.0.2",
+    "react-bootstrap-dropdown-menu": "^1.1.23",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "redux": "^4.1.1",
+    "styled-components": "^5.3.0",
+    "video-react": "^0.14.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
